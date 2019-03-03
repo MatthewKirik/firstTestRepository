@@ -26,7 +26,6 @@ namespace WpfApp1
         {
             InitializeComponent();
 
-            Mobile mobile = new Mobile();
             mobiles.Add(new Mobile { Model = "S8", Price = 17500, Producer = "Samsung" });
             mobiles.Add(new Mobile { Model = "S10", Price = 30500, Producer = "Samsung" });
             mobiles.Add(new Mobile { Model = "X", Price = 30500, Producer = "Apple" });
@@ -36,7 +35,7 @@ namespace WpfApp1
             mobiles.Add(new Mobile { Model = "Expiria 2", Price = 30500, Producer = "Sony" });
             mobiles.Add(new Mobile { Model = "ZenPhone MaxPro(M.2)", Price = 30500, Producer = "Asus" });
 
-
+            listBox.ItemsSource = mobiles;
         }
     }
 }
