@@ -15,7 +15,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <ListBox Background="Gray" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+        <ListBox Background="Gray" ScrollViewer.HorizontalScrollBarVisibility="Disabled" x:Name="LB">
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel/>
