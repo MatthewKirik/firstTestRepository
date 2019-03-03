@@ -8,14 +8,14 @@
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
         <Style x:Key="ItemTextBlock" TargetType="TextBlock">
-            <Setter Property="Margin" Value="3"/>
+            <Setter Property="Margin" Value="7"/>
             <Setter Property="FontFamily" Value="Verdana"/>
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="Margin" Value="3"/>
         </Style>
     </Window.Resources>
     <Grid>
-        <ListBox x:Name="listBox" Background="Gray" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+        <ListBox x:Name="listBox" Background="Thistle" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
             <ListBox.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel/>
@@ -24,11 +24,11 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
 
-                    <Border Background="Azure" 
-                            BorderBrush="Black"
-                            BorderThickness="5"
+                    <Border Background="Gainsboro" 
+                            BorderBrush="Brown"
+                            BorderThickness="1 1 5 5"
                             CornerRadius="4"
-                Width="150" Height="150">
+                Width="200" Height="200" Margin="5" Padding="5">
                         <Grid >
                             <Grid.RowDefinitions>
                                 <RowDefinition />
