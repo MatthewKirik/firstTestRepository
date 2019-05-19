@@ -25,7 +25,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-
+            MessageBox.Show("Hello");
             mobiles.Add(new Mobile { Model = "S8", Price = 17500, Producer = "Samsung" });
             mobiles.Add(new Mobile { Model = "S10", Price = 30500, Producer = "Samsung" });
             mobiles.Add(new Mobile { Model = "X", Price = 30500, Producer = "Apple" });
