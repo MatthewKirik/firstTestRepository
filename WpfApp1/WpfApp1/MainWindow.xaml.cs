@@ -36,6 +36,8 @@ namespace WpfApp1
             mobiles.Add(new Mobile { Model = "ZenPhone MaxPro(M.2)", Price = 30500, Producer = "Asus" });
 
             listBox.ItemsSource = mobiles;
+
+            int a = 10;
         }
     }
 }
